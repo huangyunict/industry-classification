@@ -1,0 +1,631 @@
+---
+name: Global Industry Classification Standard
+sectors:
+- id: '10'
+  name: Energy
+  industry groups:
+  - id: '1010'
+    name: Energy
+    industries:
+    - id: '101010'
+      name: Energy Equipment & Services
+      sub-industries:
+      - id: '10101010'
+        name: Oil & Gas Drilling
+      - id: '10101020'
+        name: Oil & Gas Equipment & Services
+    - id: '101020'
+      name: Oil, Gas & Consumable Fuels
+      sub-industries:
+      - id: '10102010'
+        name: Integrated Oil & Gas
+      - id: '10102020'
+        name: Oil & Gas Exploration & Production
+      - id: '10102030'
+        name: Oil & Gas Refining & Marketing
+      - id: '10102040'
+        name: Oil & Gas Storage & Transportation
+      - id: '10102050'
+        name: Coal & Consumable Fuels
+- id: '15'
+  name: Materials
+  industry groups:
+  - id: '1510'
+    name: Materials
+    industries:
+    - id: '151010'
+      name: Chemicals
+      sub-industries:
+      - id: '15101010'
+        name: Commodity Chemicals
+      - id: '15101020'
+        name: Diversified Chemicals
+      - id: '15101030'
+        name: Fertilizers & Agricultural Chemicals
+      - id: '15101040'
+        name: Industrial Gases
+      - id: '15101050'
+        name: Specialty Chemicals
+    - id: '151020'
+      name: Construction Materials
+      sub-industries:
+      - id: '15102010'
+        name: Construction Materials
+    - id: '151030'
+      name: Containers & Packaging
+      sub-industries:
+      - id: '15103010'
+        name: Metal & Glass Containers
+      - id: '15103020'
+        name: Paper Packaging
+    - id: '151040'
+      name: Metals & Mining
+      sub-industries:
+      - id: '15104010'
+        name: Aluminum
+      - id: '15104020'
+        name: Diversified Metals & Mining
+      - id: '15104025'
+        name: Copper
+      - id: '15104030'
+        name: Gold
+      - id: '15104040'
+        name: Precious Metals & Minerals
+      - id: '15104045'
+        name: Silver
+      - id: '15104050'
+        name: Steel
+    - id: '151050'
+      name: Paper & Forest Products
+      sub-industries:
+      - id: '15105010'
+        name: Forest Products
+      - id: '15105020'
+        name: Paper Products
+- id: '20'
+  name: Industrials
+  industry groups:
+  - id: '2010'
+    name: Capital Goods
+    industries:
+    - id: '201010'
+      name: Aerospace & Defense
+      sub-industries:
+      - id: '20101010'
+        name: Aerospace & Defense
+    - id: '201020'
+      name: Building Products
+      sub-industries:
+      - id: '20102010'
+        name: Building Products
+    - id: '201030'
+      name: Construction & Engineering
+      sub-industries:
+      - id: '20103010'
+        name: Construction & Engineering
+    - id: '201040'
+      name: Electrical Equipment
+      sub-industries:
+      - id: '20104010'
+        name: Electrical Components & Equipment
+      - id: '20104020'
+        name: Heavy Electrical Equipment
+    - id: '201050'
+      name: Industrial Conglomerates
+      sub-industries:
+      - id: '20105010'
+        name: Industrial Conglomerates
+    - id: '201060'
+      name: Machinery
+      sub-industries:
+      - id: '20106010'
+        name: Construction Machinery & Heavy Trucks
+      - id: '20106015'
+        name: Agricultural & Farm Machinery
+      - id: '20106020'
+        name: Industrial Machinery
+    - id: '201070'
+      name: Trading Companies & Distributors
+      sub-industries:
+      - id: '20107010'
+        name: Trading Companies & Distributors
+  - id: '2020'
+    name: Commercial & Professional Services
+    industries:
+    - id: '202010'
+      name: Commercial Services & Supplies
+      sub-industries:
+      - id: '20201010'
+        name: Commercial Printing
+      - id: '20201050'
+        name: Environmental & Facilities Services
+      - id: '20201060'
+        name: Office Services & Supplies
+      - id: '20201070'
+        name: Diversified Support Services
+      - id: '20201080'
+        name: Security & Alarm Services
+    - id: '202020'
+      name: Professional Services
+      sub-industries:
+      - id: '20202010'
+        name: Human Resource & Employment Services
+      - id: '20202020'
+        name: Research & Consulting Services
+  - id: '2030'
+    name: Transportation
+    industries:
+    - id: '203010'
+      name: Air Freight & Logistics
+      sub-industries:
+      - id: '20301010'
+        name: Air Freight & Logistics
+    - id: '203020'
+      name: Airlines
+      sub-industries:
+      - id: '20302010'
+        name: Airlines
+    - id: '203030'
+      name: Marine
+      sub-industries:
+      - id: '20303010'
+        name: Marine
+    - id: '203040'
+      name: Road & Rail
+      sub-industries:
+      - id: '20304010'
+        name: Railroads
+      - id: '20304020'
+        name: Trucking
+    - id: '203050'
+      name: Transportation Infrastructure
+      sub-industries:
+      - id: '20305010'
+        name: Airport Services
+      - id: '20305020'
+        name: Highways & Railtracks
+      - id: '20305030'
+        name: Marine Ports & Services
+- id: '25'
+  name: Consumer Discretionary
+  industry groups:
+  - id: '2510'
+    name: Automobiles & Components
+    industries:
+    - id: '251010'
+      name: Auto Components
+      sub-industries:
+      - id: '25101010'
+        name: Auto Parts & Equipment
+      - id: '25101020'
+        name: Tires & Rubber
+    - id: '251020'
+      name: Automobiles
+      sub-industries:
+      - id: '25102010'
+        name: Automobile Manufacturers
+      - id: '25102020'
+        name: Motorcycle Manufacturers
+  - id: '2520'
+    name: Consumer Durables & Apparel
+    industries:
+    - id: '252010'
+      name: Household Durables
+      sub-industries:
+      - id: '25201010'
+        name: Consumer Electronics
+      - id: '25201020'
+        name: Home Furnishings
+      - id: '25201030'
+        name: Homebuilding
+      - id: '25201040'
+        name: Household Appliances
+      - id: '25201050'
+        name: Housewares & Specialties
+    - id: '252020'
+      name: Leisure Products
+      sub-industries:
+      - id: '25202010'
+        name: Leisure Products
+    - id: '252030'
+      name: Textiles, Apparel & Luxury Goods
+      sub-industries:
+      - id: '25203010'
+        name: Apparel, Accessories & Luxury Goods
+      - id: '25203020'
+        name: Footwear
+      - id: '25203030'
+        name: Textiles
+  - id: '2530'
+    name: Consumer Services
+    industries:
+    - id: '253010'
+      name: Hotels, Restaurants & Leisure
+      sub-industries:
+      - id: '25301010'
+        name: Casinos & Gaming
+      - id: '25301020'
+        name: Hotels, Resorts & Cruise Lines
+      - id: '25301030'
+        name: Leisure Facilities
+      - id: '25301040'
+        name: Restaurants
+    - id: '253020'
+      name: Diversified Consumer Services
+      sub-industries:
+      - id: '25302010'
+        name: Education Services
+      - id: '25302020'
+        name: Specialized Consumer Services
+  - id: '2550'
+    name: Retailing
+    industries:
+    - id: '255010'
+      name: Distributors
+      sub-industries:
+      - id: '25501010'
+        name: Distributors
+    - id: '255020'
+      name: Internet & Direct Marketing Retail
+      sub-industries:
+      - id: '25502020'
+        name: Internet & Direct Marketing Retail
+    - id: '255030'
+      name: Multiline Retail
+      sub-industries:
+      - id: '25503010'
+        name: Department Stores
+      - id: '25503020'
+        name: General Merchandise Stores
+    - id: '255040'
+      name: Specialty Retail
+      sub-industries:
+      - id: '25504010'
+        name: Apparel Retail
+      - id: '25504020'
+        name: Computer & Electronics Retail
+      - id: '25504030'
+        name: Home Improvement Retail
+      - id: '25504040'
+        name: Specialty Stores
+      - id: '25504050'
+        name: Automotive Retail
+      - id: '25504060'
+        name: Homefurnishing Retail
+- id: '30'
+  name: Consumer Staples
+  industry groups:
+  - id: '3010'
+    name: Food & Staples Retailing
+    industries:
+    - id: '301010'
+      name: Food & Staples Retailing
+      sub-industries:
+      - id: '30101010'
+        name: Drug Retail
+      - id: '30101020'
+        name: Food Distributors
+      - id: '30101030'
+        name: Food Retail
+      - id: '30101040'
+        name: Hypermarkets & Super Centers
+  - id: '3020'
+    name: Food, Beverage & Tobacco
+    industries:
+    - id: '302010'
+      name: Beverages
+      sub-industries:
+      - id: '30201010'
+        name: Brewers
+      - id: '30201020'
+        name: Distillers & Vintners
+      - id: '30201030'
+        name: Soft Drinks
+    - id: '302020'
+      name: Food Products
+      sub-industries:
+      - id: '30202010'
+        name: Agricultural Products
+      - id: '30202030'
+        name: Packaged Foods & Meats
+    - id: '302030'
+      name: Tobacco
+      sub-industries:
+      - id: '30203010'
+        name: Tobacco
+  - id: '3030'
+    name: Household & Personal Products
+    industries:
+    - id: '303010'
+      name: Household Products
+      sub-industries:
+      - id: '30301010'
+        name: Household Products
+    - id: '303020'
+      name: Personal Products
+      sub-industries:
+      - id: '30302010'
+        name: Personal Products
+- id: '35'
+  name: Health Care
+  industry groups:
+  - id: '3510'
+    name: Health Care Equipment & Services
+    industries:
+    - id: '351010'
+      name: Health Care Equipment & Supplies
+      sub-industries:
+      - id: '35101010'
+        name: Health Care Equipment
+      - id: '35101020'
+        name: Health Care Supplies
+    - id: '351020'
+      name: Health Care Providers & Services
+      sub-industries:
+      - id: '35102010'
+        name: Health Care Distributors
+      - id: '35102015'
+        name: Health Care Services
+      - id: '35102020'
+        name: Health Care Facilities
+      - id: '35102030'
+        name: Managed Health Care
+    - id: '351030'
+      name: Health Care Technology
+      sub-industries:
+      - id: '35103010'
+        name: Health Care Technology
+  - id: '3520'
+    name: Pharmaceuticals, Biotechnology & Life Sciences
+    industries:
+    - id: '352010'
+      name: Biotechnology
+      sub-industries:
+      - id: '35201010'
+        name: Biotechnology
+    - id: '352020'
+      name: Pharmaceuticals
+      sub-industries:
+      - id: '35202010'
+        name: Pharmaceuticals
+    - id: '352030'
+      name: Life Sciences Tools & Services
+      sub-industries:
+      - id: '35203010'
+        name: Life Sciences Tools & Services
+- id: '40'
+  name: Financials
+  industry groups:
+  - id: '4010'
+    name: Banks
+    industries:
+    - id: '401010'
+      name: Banks
+      sub-industries:
+      - id: '40101010'
+        name: Diversified Banks
+      - id: '40101015'
+        name: Regional Banks
+    - id: '401020'
+      name: Thrifts & Mortgage Finance
+      sub-industries:
+      - id: '40102010'
+        name: Thrifts & Mortgage Finance
+  - id: '4020'
+    name: Diversified Financials
+    industries:
+    - id: '402010'
+      name: Diversified Financial Services
+      sub-industries:
+      - id: '40201020'
+        name: Other Diversified Financial Services
+      - id: '40201030'
+        name: Multi-Sector Holdings
+      - id: '40201040'
+        name: Specialized Finance
+    - id: '402020'
+      name: Consumer Finance
+      sub-industries:
+      - id: '40202010'
+        name: Consumer Finance
+    - id: '402030'
+      name: Capital Markets
+      sub-industries:
+      - id: '40203010'
+        name: Asset Management & Custody Banks
+      - id: '40203020'
+        name: Investment Banking & Brokerage
+      - id: '40203030'
+        name: Diversified Capital Markets
+      - id: '40203040'
+        name: Financial Exchanges & Data
+    - id: '402040'
+      name: Mortgage Real Estate Investment Trusts (REITs)
+      sub-industries:
+      - id: '40204010'
+        name: Mortgage REITs
+  - id: '4030'
+    name: Insurance
+    industries:
+    - id: '403010'
+      name: Insurance
+      sub-industries:
+      - id: '40301010'
+        name: Insurance Brokers
+      - id: '40301020'
+        name: Life & Health Insurance
+      - id: '40301030'
+        name: Multi-line Insurance
+      - id: '40301040'
+        name: Property & Casualty Insurance
+      - id: '40301050'
+        name: Reinsurance
+- id: '45'
+  name: Information Technology
+  industry groups:
+  - id: '4510'
+    name: Software & Services
+    industries:
+    - id: '451020'
+      name: IT Services
+      sub-industries:
+      - id: '45102010'
+        name: IT Consulting & Other Services
+      - id: '45102020'
+        name: Data Processing & Outsourced Services
+      - id: '45102030'
+        name: Internet Services & Infrastructure
+    - id: '451030'
+      name: Software
+      sub-industries:
+      - id: '45103010'
+        name: Application Software
+      - id: '45103020'
+        name: Systems Software
+  - id: '4520'
+    name: Technology Hardware & Equipment
+    industries:
+    - id: '452010'
+      name: Communications Equipment
+      sub-industries:
+      - id: '45201020'
+        name: Communications Equipment
+    - id: '452020'
+      name: Technology Hardware, Storage & Peripherals
+      sub-industries:
+      - id: '45202030'
+        name: Technology Hardware, Storage & Peripherals
+    - id: '452030'
+      name: Electronic Equipment, Instruments & Components
+      sub-industries:
+      - id: '45203010'
+        name: Electronic Equipment & Instruments
+      - id: '45203015'
+        name: Electronic Components
+      - id: '45203020'
+        name: Electronic Manufacturing Services
+      - id: '45203030'
+        name: Technology Distributors
+  - id: '4530'
+    name: Semiconductors & Semiconductor Equipment
+    industries:
+    - id: '453010'
+      name: Semiconductors & Semiconductor Equipment
+      sub-industries:
+      - id: '45301010'
+        name: Semiconductor Equipment
+      - id: '45301020'
+        name: Semiconductors
+- id: '50'
+  name: Communication Services
+  industry groups:
+  - id: '5010'
+    name: Communication Services
+    industries:
+    - id: '501010'
+      name: Diversified Telecommunication Services
+      sub-industries:
+      - id: '50101010'
+        name: Alternative Carriers
+      - id: '50101020'
+        name: Integrated Telecommunication Services
+    - id: '501020'
+      name: Wireless Telecommunication Services
+      sub-industries:
+      - id: '50102010'
+        name: Wireless Telecommunication Services
+  - id: '5020'
+    name: Media & Entertainment
+    industries:
+    - id: '502010'
+      name: Media
+      sub-industries:
+      - id: '50201010'
+        name: Advertising
+      - id: '50201020'
+        name: Broadcasting
+      - id: '50201030'
+        name: Cable & Satellite
+      - id: '50201040'
+        name: Publishing
+    - id: '502020'
+      name: Entertainment
+      sub-industries:
+      - id: '50202010'
+        name: Movies & Entertainment
+      - id: '50202020'
+        name: Interactive Home Entertainment
+    - id: '502030'
+      name: Interactive Media & Services
+      sub-industries:
+      - id: '50203010'
+        name: Interactive Media & Services
+- id: '55'
+  name: Utilities
+  industry groups:
+  - id: '5510'
+    name: Utilities
+    industries:
+    - id: '551010'
+      name: Electric Utilities
+      sub-industries:
+      - id: '55101010'
+        name: Electric Utilities
+    - id: '551020'
+      name: Gas Utilities
+      sub-industries:
+      - id: '55102010'
+        name: Gas Utilities
+    - id: '551030'
+      name: Multi-Utilities
+      sub-industries:
+      - id: '55103010'
+        name: Multi-Utilities
+    - id: '551040'
+      name: Water Utilities
+      sub-industries:
+      - id: '55104010'
+        name: Water Utilities
+    - id: '551050'
+      name: Independent Power and Renewable Electricity Producers
+      sub-industries:
+      - id: '55105010'
+        name: Independent Power Producers & Energy Traders
+      - id: '55105020'
+        name: Renewable Electricity
+- id: '60'
+  name: Real Estate
+  industry groups:
+  - id: '6010'
+    name: Real Estate
+    industries:
+    - id: '601010'
+      name: Equity Real Estate Investment Trusts (REITs)
+      sub-industries:
+      - id: '60101010'
+        name: Diversified REITs
+      - id: '60101020'
+        name: Industrial REITs
+      - id: '60101030'
+        name: Hotel & Resort REITs
+      - id: '60101040'
+        name: Office REITs
+      - id: '60101050'
+        name: Health Care REITs
+      - id: '60101060'
+        name: Residential REITs
+      - id: '60101070'
+        name: Retail REITs
+      - id: '60101080'
+        name: Specialized REITs
+    - id: '601020'
+      name: Real Estate Management & Development
+      sub-industries:
+      - id: '60102010'
+        name: Diversified Real Estate Activities
+      - id: '60102020'
+        name: Real Estate Operating Companies
+      - id: '60102030'
+        name: Real Estate Development
+      - id: '60102040'
+        name: Real Estate Services
